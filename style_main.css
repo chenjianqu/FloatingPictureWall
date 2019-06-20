@@ -1,0 +1,43 @@
+*{//通过通配符 去掉所有元素的边框
+    margin:0;
+    padding: 0;
+}
+
+#main{
+    position:absolute;
+    top:0;
+}
+
+.bar{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#menu{
+    positon:fixed;
+    z-index:999;
+    top:0;
+}
+
+.close{
+    positon:absolute;
+    right: 0;
+    top:0
+}
+
+.box{
+    padding:5px 5px 5px 5px;//顶部 右边 下边 左边的边距
+}
+
+.pic{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+
+}
+
+.pic image{
+    width:100px;
+    height: auto;
+}
